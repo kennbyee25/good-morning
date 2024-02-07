@@ -20,10 +20,10 @@ def create_config():
     }
 
     # Write the configuration to a json file
-    with open("src/config.json", "w") as f:
+    with open("config/config.json", "w") as f:
         json.dump(config, f, indent=4)
 
-    print("Configuration saved to src/config.json")
+    print("Configuration saved to config/config.json")
 
 if __name__ == "__main__":
     create_config()

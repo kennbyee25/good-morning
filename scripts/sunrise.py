@@ -3,7 +3,7 @@ import yeelight
 import json
 
 def load_config():
-    with open('config.json') as f:
+    with open('config/config.json') as f:
         return json.load(f)
 
 if __name__ == '__main__':
